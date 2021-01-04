@@ -1,0 +1,55 @@
+.top
+{
+overflow: hidden;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+}
+body
+{
+margin: 0;
+background-image: url("bg.jpg");
+background-color: black;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Roboto Mono', monospace;
+color: white;
+}
+.buttons a
+{
+text-decoration: none;
+color: white;
+font-size: 40px;
+}
+@media screen and (min-width: 843px)
+{
+.encrypt
+{
+width: 23%;
+margin-top: 200px;
+padding: 1%;
+margin-left: 18%;
+margin-right: 18%;
+}
+.decrypt
+{
+width: 23%;
+margin-top: 200px;
+padding: 1%;
+}
+}
+@media screen and (max-width: 842px)
+{
+.encrypt
+{
+width: 50%;
+margin-left: 25%;
+margin-top: 20%;
+margin-bottom: 20%;
+}
+.decrypt
+{
+width: 50%;
+margin-left: 25%;
+}
